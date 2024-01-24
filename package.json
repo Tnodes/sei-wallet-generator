@@ -1,0 +1,28 @@
+{
+  "name": "sei-wallet-generator",
+  "version": "1.0.0",
+  "description": "Fast bulk sei wallet generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "git+https://github.com/Tnodes/sei-wallet-generator.git",
+  "keywords": [
+    "sei",
+    "wallet",
+    "generator",
+    "sei-wallet-generator"
+  ],
+  "author": "Tnodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tnodes/sei-wallet-generator/issues"
+  },
+  "homepage": "https://github.com/Tnodes/sei-wallet-generator#readme",
+  "dependencies": {
+    "@sei-js/core": "^3.1.3",
+    "colors": "^1.4.0",
+    "figlet": "^1.7.0",
+    "readline-sync": "^1.4.10"
+  }
+}
