@@ -25,6 +25,7 @@ Node.js script for generating multiple wallets in SEI Network. It's designed to 
    cd sei-wallet-generator
    ```
 5. Install the required dependencies:
+   
    use npm
    ```
    npm install
