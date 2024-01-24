@@ -58,7 +58,7 @@ function main() {
   // Check if list_address.txt file exists
   if (fileExists(outputFilePath)) {
     // Prompt user before sorting
-    const userResponse = readlineSync.question('[NOTES] Back up the list_address.txt file first, before sorting it again. Do you want to continue? (y/n): '.bgBlue);
+    const userResponse = readlineSync.question('[NOTES] Backup the list_address.txt file first, before starting to merge again. Would you like to continue (y/n): '.bgBlue);
 
     if (userResponse.toLowerCase() !== 'y') {
       console.log('Exiting without sorting.');
