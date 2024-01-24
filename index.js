@@ -7,8 +7,8 @@ require('colors')
 // Function to display the menu and get user choice
 function displayMenu() {
   console.log('Menu:');
-  console.log('1. Generate Wallet');
-  console.log('2. Sorted Address List');
+  console.log('1. Generate Wallet address');
+  console.log('2. Merge all wallet address');
 
   return new Promise((resolve) => {
     const rl = readline.createInterface({
